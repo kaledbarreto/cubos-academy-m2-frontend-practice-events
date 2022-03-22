@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="nav small-nav">
+    <div class="first-section">
+      <img class="open-menu" src="./assets/closed-menu.svg" alt="Menu">
+      <a href="#">
+        <img class="active-home" src="./assets/active-home.svg" alt="Home">
+      </a>
+      <a href="#">
+        <img src="./assets/inactive-like.svg" alt="Like">
+      </a>
+    </div>
+    <a href="#">
+      <img src="./assets/inactive-settings.svg" alt="Settings">
+    </a>
+  </div>
+  <div class="nav big-nav hide">
+    <div class="first-section">
+      <img class="close-menu" src="./assets/open-menu.svg" alt="Menu">
+      <div>
+        <a href="#">
+          <img class="active-home" src="./assets/active-home.svg" alt="Home">
+          <span class="highlight">Início</span>
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          <img class="mrg" src="./assets/inactive-like.svg" alt="Like">
+          <span>Favoritos</span>
+        </a>
+      </div>
+    </div>
+    <div>
+      <a href="#">
+        <img class="mrg" src="./assets/inactive-settings.svg" alt="Settings">
+        <span>Configurações</span>
+      </a>
+    </div>
+  </div>
+  <main>
+    <h1>Início</h1>
+    <div class="container">
+      <div class="card-img">
+        <img data-id="0" class="img" src="./assets/gallery/image 1.png" alt="Hamster">
+        <img class="like" src="./assets/like.svg" alt="Like">
+        <div class="bottom-text">
+          <h1>Lorem impsum</h1>
+          <span>há 1 mês</span>
+        </div>
+      </div>
+      <div class="card-img">
+        <img data-id="1" class="img" src="./assets/gallery/image 2.png" alt="Gato">
+        <img class="like" src="./assets/like.svg" alt="Like">
+        <div class="bottom-text">
+          <h1>Lorem impsum</h1>
+          <span>há 1 mês</span>
+        </div>
+      </div>
+      <div class="card-img">
+        <img data-id="2" class="img" src="./assets/gallery/image 3.png" alt="Cachorro">
+        <img class="like" src="./assets/like.svg" alt="Like">
+        <div class="bottom-text">
+          <h1>Lorem impsum</h1>
+          <span>há 1 mês</span>
+        </div>
+      </div>
+      <div class="card-img">
+        <img data-id="3" class="img" src="./assets/gallery/image 4.png" alt="Macaco">
+        <img class="like" src="./assets/like.svg" alt="Like">
+        <div class="bottom-text">
+          <h1>Lorem impsum</h1>
+          <span>há 1 mês</span>
+        </div>
+      </div>
+      <div class="card-img">
+        <img data-id="4" class="img" src="./assets/gallery/image 5.png" alt="Borboleta">
+        <img class="like" src="./assets/like.svg" alt="Like">
+        <div class="bottom-text">
+          <h1>Lorem impsum</h1>
+          <span>há 1 mês</span>
+        </div>
+      </div>
+      <div class="card-img">
+        <img data-id="5" class="img" src="./assets/gallery/image 6.png" alt="Onça">
+        <img class="like" src="./assets/like.svg" alt="Like">
+        <div class="bottom-text">
+          <h1>Lorem impsum</h1>
+          <span>há 1 mês</span>
+        </div>
+      </div>
+      <div class="card-img">
+        <img data-id="6" class="img" src="./assets/gallery/image 7.png" alt="Raposa">
+        <img class="like" src="./assets/like.svg" alt="Like">
+        <div class="bottom-text">
+          <h1>Lorem impsum</h1>
+          <span>há 1 mês</span>
+        </div>
+      </div>
+      <div class="card-img">
+        <img data-id="7" class="img" src="./assets/gallery/image 8.png" alt="Raposa da Neve">
+        <img class="like" src="./assets/like.svg" alt="Like">
+        <div class="bottom-text">
+          <h1>Lorem impsum</h1>
+          <span>há 1 mês</span>
+        </div>
+      </div>
+      <div class="card-img">
+        <img data-id="8" class="img" src="./assets/gallery/image 9.png" alt="Tartaruga">
+        <img class="like" src="./assets/like.svg" alt="Like">
+        <div class="bottom-text">
+          <h1>Lorem impsum</h1>
+          <span>há 1 mês</span>
+        </div>
+      </div>
+      <div class="card-img">
+        <img data-id="9" class="img" src="./assets/gallery/image 10.png" alt="Leão">
+        <img class="like" src="./assets/like.svg" alt="Like">
+        <div class="bottom-text">
+          <h1>Lorem impsum</h1>
+          <span>há 1 mês</span>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="modal">
+    <div class="close-modal">
+      <img src="./assets/close-modal.svg" alt="Close Modal">
+    </div>
+    <div class="prev-img-next">
+      <img class="prev" src="./assets/prev.svg" alt="Anterior">
+      <img class="img-modal">
+      <img src="./assets/like.svg" class="like-img">
+      <img class="next" src="./assets/next.svg" alt="Posterior">
+    </div>
+  </div>
+</body>
+
+</html>
